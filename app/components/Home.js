@@ -30,7 +30,7 @@ export default class Home extends Component<Props, State> {
     const sequelize = new Sequelize('db', 'admin', '12345', {
       dialect: 'sqlite',
       dialectModulePath: '@journeyapps/sqlcipher',
-      storage: './src/db.sqlite'
+      storage: './db.sqlite'
     })
     User.init({
       // attributes
