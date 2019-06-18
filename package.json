@@ -262,6 +262,7 @@
     "electron-log": "^2.2.17",
     "electron-updater": "^3.1.6",
     "history": "^4.7.2",
+    "material-components-web": "^2.3.1",
     "node-pre-gyp": "^0.13.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
